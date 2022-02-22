@@ -24,7 +24,7 @@ func CalcSquare(sideLen float64, sidesNum sNumber) float64 {
 	if sidesNum != SidesTriangle && sidesNum != SidesSquare && sidesNum != SidesCircle {
 		square = 0
 	} else if sidesNum == SidesTriangle {
-		square = math.Pow(sideLen, float64(2)) * math.Sqrt(3) / float64(4)
+		square = math.Pow(sideLen, sideLen) * math.Sqrt(3) / float64(4)
 	} else if sidesNum == SidesSquare {
 		square = math.Pow(sideLen, sideLen)
 	} else if sidesNum == SidesCircle {
