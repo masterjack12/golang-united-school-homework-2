@@ -36,6 +36,3 @@ func CalcSquare(sideLen float64, sidesNum sum) float64 {
 	return square
 
 }
-func main() {
-	CalcSquare(10.0, SidesTriangle)
-}
