@@ -12,13 +12,13 @@ import (
 // CalcSquare(10.0, SidesTriangle)
 // CalcSquare(10.0, SidesSquare)
 // CalcSquare(10.0, SidesCircle)
-type sum int
+type sNumber int
 
 const SidesTriangle = 3
 const SidesSquare = 4
 const SidesCircle = 0
 
-func CalcSquare(sideLen float64, sidesNum sum) float64 {
+func CalcSquare(sideLen float64, sidesNum sNumber) float64 {
 
 	var square float64
 
