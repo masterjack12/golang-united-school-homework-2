@@ -1,7 +1,6 @@
 package square
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -32,7 +31,6 @@ func CalcSquare(sideLen float64, sidesNum sNumber) float64 {
 		square = math.Pi * math.Pow(sideLen, sideLen)
 	}
 
-	fmt.Println(square)
 	return square
 
 }
